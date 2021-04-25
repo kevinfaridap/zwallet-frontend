@@ -1,0 +1,110 @@
+.search-receiver-box{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  height: 760px;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+p.title{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #3A3D42;
+}
+
+input.form-search{
+  width: 750px;
+  background: rgba(58, 61, 66, 0.1);
+  border-radius: 12px;
+  padding-left: 20px;
+}
+
+.img-target{
+  background-image: url(../assets/images/target-profile.png);
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+p.target-name{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4D4B57;
+}
+
+p.target-number{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7A7886;
+}
+
+.receiver-box{
+  background: transparent;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  border: none;
+  width: 90%;
+  margin-top: 20px;
+}
+
+
+button.btn-asc{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 67px;
+  height: 37px;
+  margin-bottom: 10px;
+  background-color: #6379F4;
+  position: relative;
+  top: 50px;
+  float: right;
+  right: 80px;
+}
+
+button.btn-asc:focus{
+  background:black;
+  color: white;
+}
+
+
+button.btn-pagination{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 67px;
+  height: 37px;
+  background-color: #6379F4;
+  margin-top: 50px;
+}
+
+button.btn-pagination:focus{
+  background:black;
+  color: white;
+}

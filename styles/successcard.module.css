@@ -1,0 +1,134 @@
+.confirmation-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    height: 850px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  img.success-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  img.failed-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p.title{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+    text-align: center;
+  }
+  
+  .img-target{
+    background-image: url(../assets/images/target-profile.png);
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+  }
+  
+  p.target-name{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4D4B57;
+  }
+  
+  p.target-number{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7A7886;
+  }
+  
+  .receiver-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .detail-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  p.detail{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+  }
+  
+  p.title-detail{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7A7886;
+  }
+  
+  p.value-detail{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #514F5B;
+    margin-top: -10px;
+  }
+  
+  button.btn-continue{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    width: 170px;
+    border: none;
+    height: 57px;
+    float: right;
+    display: block;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+  
+  button.btn-continue:hover{
+    background-color: black;
+    color: white;
+  }

@@ -1,0 +1,13 @@
+.btnlogin{
+    width: 505px;
+    height: 75px;
+    background: #DADADA;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #6a4029;
+    border: none;
+    margin-top: 10px;
+}

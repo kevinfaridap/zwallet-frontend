@@ -1,0 +1,125 @@
+.input-amount{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    height: 560px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  
+  p.title{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+  }
+  
+  
+  .img-target{
+    background-image: url(../assets/images/target-profile.png);
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+  }
+  
+  p.target-name{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4D4B57;
+  }
+  
+  p.target-number{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7A7886;
+  }
+  
+  .receiver-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .transfer-desc{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7A7886;
+    margin-top: 40px;
+  }
+  
+  input.form-amount{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #B5BDCC;
+    height: 56px;
+    border: none;
+    margin: 5px auto;
+    font-family: Nunito Sans;
+  }
+  
+  p.amount-available{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3A3D42;
+    text-align: center;
+    margin-top: -20px;
+  }
+  
+  .form-notes{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: rgba(169, 169, 169, 0.8);
+    width: 343px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid rgba(169, 169, 169, 0.6);;
+  }
+  
+  button.btn-continue{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    width: 170px;
+    border: none;
+    height: 57px;
+    float: right;
+    display: block;
+    margin-right: 30px;
+  }
+  
+  button.btn-continue:hover{
+    background-color: black;
+    color: white;
+  }

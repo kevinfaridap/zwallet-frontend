@@ -1,0 +1,68 @@
+.profile-card{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+   
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+img.user-img{
+  background-blend-mode: normal;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button.btn-update{
+  border: none;
+  background-color: transparent;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Nunito Sans;
+}
+
+button.btn-update:hover{
+  background-color:#7A7886;
+  color: white;
+  border-radius: 29px;
+}
+
+p.user-name{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #4D4B57;
+}
+
+p.phone-num{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #7A7886;
+  margin-top: -10px;
+}
+
+button.btn-etc{
+  background: #E5E8ED;
+  border-radius: 20px;
+  width: 433px;
+  height: 64px;
+  border: none;
+}
+
+button.btn-etc:hover{
+  background-color: rgba(99, 121, 244, 1);
+  color: white;
+}

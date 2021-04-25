@@ -1,0 +1,99 @@
+.topup-card{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  height: 565px;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+p.title{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #3A3D42;
+}
+
+p.amount{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  padding: 0;
+  margin-top: 15px;
+}
+
+input.form-control-amount{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-bottom:steelblue 1px solid ;
+}
+
+p.notes{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  padding: 0;
+  margin-top: 15px;
+}
+
+textarea.form-control-notes{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-bottom:#6379F4 1px solid ;
+}
+
+button.btn-topup{
+  background-color: #6379F4;
+  color: white;
+  font-family: Nunito Sans;
+  float: right;
+  margin-right: 120px;  
+}
+
+button.btn-topup:hover{
+  border: #6379F4 2px solid;
+  background-color:transparent;
+  color: black;
+  font-family: Nunito Sans;
+}
+
+.how-to-topup{
+  background: white;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  width: 100%;
+  height: 88px;
+  padding-top: 31px;
+  margin-bottom: 20px;
+}
+
+p.topup-desc{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #7A7886;
+}
