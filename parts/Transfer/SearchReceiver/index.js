@@ -8,15 +8,15 @@ function SearchReceiver() {
   const [getUser, setGetAllUser] = useState([])
 
   const [page, setPage] = useState(1);
-  const [by, setBy] = useState('id');
+  const [by, setBy] = useState('firstName');
   const [order, setOrder] = useState("ASC");
   const [title, setTitle] = useState({
     name: ''
   });
 
   useEffect(()=>{
-    // axiosApiInstance.get('http://localhost:8080/v1/users')
-    axiosApiInstance.get(`http://localhost:8080/v1/users?page=${page}&limit=4&by=${by}&order=${order}&firstname=${title.name}`)
+    // axiosApiInstance.get('${process.env.api}/users')
+    axiosApiInstance.get(`${process.env.api}/users?page=${page}&limit=4&by=${by}&order=${order}&firstname=${title.name}`)
     .then((res)=>{
       const dataUser = res.data
       setGetAllUser(dataUser)
@@ -29,7 +29,7 @@ function SearchReceiver() {
 
   const getUserMap = getUser.data
   
-  // http://localhost:8080/v1/users?page=1&limit=5&by=id&order=DESC&firstname=use
+  // ${process.env.api}/users?page=1&limit=5&by=id&order=DESC&firstname=use
 
   const userPerPage = getUser.MaxperPage
   const totalPage = getUser.totalPage

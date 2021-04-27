@@ -5,6 +5,10 @@ import UserContext from '../../../components/base/UserContext'
 
 function PersonalInfo() {
   const [context, setContext] = useContext(UserContext);
+  
+  const managePhone = (e)=>{
+    Router.push('main/profile/personalinfo/managephone')
+  }
   return (
     <div>
       <div className={style["personalinfo-card"]}>
@@ -34,6 +38,12 @@ function PersonalInfo() {
             <p className={style["title-info"]}>Phone Number</p>
             <p className={style["value"]}>{context.phoneNumber}</p>
           </div>
+          <button 
+            className={style["btn-manage-phonenumber"]}
+            type="button"
+            onClick={managePhone}
+          > Manage
+          </button>
         </div>
         
 

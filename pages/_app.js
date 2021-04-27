@@ -7,7 +7,7 @@ import UserContext from '../components/base/UserContext'
 function MyApp({ Component, pageProps }) {
   const [context, setContext] = useState({})
   useEffect(()=>{
-    axiosApiInstance.get('http://localhost:8080/v1/users/profile')
+    axiosApiInstance.get(`${process.env.api}/users/profile`)
     .then((res)=>{
       const dataUser = res.data.data[0]
       setContext(dataUser)

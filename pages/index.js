@@ -16,7 +16,7 @@ import axiosApiInstance from '../helper/axios'
 export default function Home({user}) {
   // const [user, setUser] = useState([])
   // useEffect(()=>{
-  //   axios.get('http://localhost:8080/v1/users/10')
+  //   axios.get('${process.env.api}/users/10')
   //   .then((res)=>{
   //     const dataUser = res.data.data
   //     setUser(dataUser)
@@ -29,7 +29,7 @@ export default function Home({user}) {
 
   const [context, setContext] = useContext(UserContext);
   useEffect(()=>{
-    axiosApiInstance.get('http://localhost:8080/v1/users/profile')
+    axiosApiInstance.get(`${process.env.api}/users/profile`)
     .then((res)=>{
       const dataUser = res.data.data[0]
       setContext(dataUser)

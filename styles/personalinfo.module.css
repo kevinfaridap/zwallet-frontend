@@ -57,5 +57,13 @@ p.value{
 }
 
 
-
+button.btn-manage-phonenumber{
+  background-color:transparent;
+  border: none;
+  width: 50px;
+  float: right;
+  margin-right: 40px;
+  font-family: Nunito Sans;
+  font-size: 14px;
+}
   

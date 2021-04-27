@@ -19,7 +19,7 @@ const ConfirmationId = ({dataTransaction}) =>{
   
   const idreceiver = dataTransaction.idReceiver
   useEffect(()=>{
-    axios.get(`http://localhost:8080/v1/transaction/receiver/${idreceiver}`)
+    axios.get(`${process.env.api}/transaction/receiver/${idreceiver}`)
     .then((res)=>{
       const dataTransaction = res.data.data[0]
       // console.log(dataTransaction + 'isinya');
@@ -98,7 +98,7 @@ const ConfirmationId = ({dataTransaction}) =>{
 
 ConfirmationId.getInitialProps = async(ctx)=>{
   try {
-    const result = await axios.get(`http://localhost:8080/v1/transaction/${ctx.query.id}`)
+    const result = await axios.get(`${process.env.api}/transaction/${ctx.query.id}`)
     const dataTransaction = result.data.data[0]
     // console.log(dataTransaction + 'cccccccccccc');
     return {

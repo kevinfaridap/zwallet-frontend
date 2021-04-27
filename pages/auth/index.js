@@ -30,10 +30,10 @@ function index() {
 
     const handleSubmit = (e) => {
       e.preventDefault();
-      const urlRegis = axios.post('http://localhost:8080/v1/users/register', formUser)
+      const urlRegis = axios.post(`${process.env.api}/users/register`, formUser)
       .then((res) => {
           // console.log(res.data)
-          swal(`Registered \n Email : ${formUser.email} \n Password : ${formUser.password}`)
+          swal(`Registered \n Email : ${formUser.email} `)
           Router.push('auth/signin')
       })
       .catch((err) => {

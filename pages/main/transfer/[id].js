@@ -36,7 +36,7 @@ const getUserId = ({user}) =>{
   
   const handleTransfer= (e) =>{
     e.preventDefault();
-    axios.post('http://localhost:8080/v1/transaction/transfer', formTransfer)
+    axios.post(`${process.env.api}/transaction/transfer`, formTransfer)
       .then((res) => {
           console.log(res.data)
           if(res.data.data === null){
@@ -131,9 +131,10 @@ const getUserId = ({user}) =>{
   )
 }
 
+// Di case ini digunakan untuk ambil data receiver by get data by id, karena kalo pake useeffect sering undefined di awal jadi atasi nya pake getInitalProps
 getUserId.getInitialProps = async(ctx)=>{
   try {
-    const result = await axios.get(`http://localhost:8080/v1/users/${ctx.query.id}`)
+    const result = await axios.get(`${process.env.api}/users/${ctx.query.id}`)
     const user = result.data.data[0]
     // console.log(user);
     return {
@@ -159,7 +160,7 @@ export default getUserId
     // if ( typeof window !== "undefined" || id !== undefined) {     
       // if (isReady) {
       // console.log(id + 'ini id');
-      // axiosApiInstance.get(`http://localhost:8080/v1/users/${id}`)
+      // axiosApiInstance.get(`${process.env.api}/users/${id}`)
       // .then((res)=>{
       //   const dataUser = res.data
       //   setGetAllUserID(dataUser)

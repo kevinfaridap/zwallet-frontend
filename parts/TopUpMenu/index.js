@@ -10,7 +10,7 @@ const TopUpMenu = ({user}) =>{
   // const {saldo, id} = useContext(UserContext);
   const [context, setContext] = useContext(UserContext);
   useEffect(()=>{
-    axiosApiInstance.get('http://localhost:8080/v1/users/profile')
+    axiosApiInstance.get(`${process.env.api}/users/profile`)
     .then((res)=>{
       const dataUser = res.data.data[0]
       setContext(dataUser)
@@ -39,7 +39,7 @@ const TopUpMenu = ({user}) =>{
   
   const handleTopUp= (e) =>{
     e.preventDefault();
-    axios.post('http://localhost:8080/v1/transaction/topup', formTopUp)
+    axios.post(`${process.env.api}/transaction/topup`, formTopUp)
       .then((res) => {
         swal(`Success Top UP : Rp ${formTopUp.amount}`)
         Router.push('/')
