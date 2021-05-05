@@ -4,14 +4,18 @@
 # About Zwallet
 Zwallet adalah aplikasi layanan dompet digital yang memberi kemudahan kepada pengguna untuk melakukan transaksi apapun, kapanpun dan dimana pun. Aplikasi ini dibangun dengan menggunakan Next JS pada sisi Frontend dan Express JS pada sisi Backend
 
+<br/> 
+
 ># Build With
 
 * React Js
 * Bootstrap
+* CSS
 * **JWT** for Authentication
 * **Nodemailer** for Mailer
 * **Multer** for Upload file
 
+<br/> 
 
 ## #1 Beberapa Fitur Aplikasi Ini
 
