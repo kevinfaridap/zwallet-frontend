@@ -19,7 +19,8 @@ Zwallet adalah aplikasi layanan dompet digital yang memberi kemudahan kepada pen
 
 ## #1 Beberapa Fitur Aplikasi Ini
 
-Masukkan Screenshot dibawah...
+### `Signup Page Zwallet`
+![sign up](https://user-images.githubusercontent.com/74039235/117771815-b3ea1880-b260-11eb-94ef-bd002e2ba1ce.png)
 
 ### `Signin Page Zwallet`
 ![signin](https://user-images.githubusercontent.com/74039235/117044737-f9768500-ad38-11eb-93e3-f598a940bd5d.jpg)
@@ -30,7 +31,23 @@ Masukkan Screenshot dibawah...
 ### `Search Receiver Page Zwallet`
 ![transfer](https://user-images.githubusercontent.com/74039235/117044971-317dc800-ad39-11eb-85a9-a9a94b826d12.jpg)
 
-## Link:
+### `Confirmation Page`
+![confirmation](https://user-images.githubusercontent.com/74039235/117772187-1ba06380-b261-11eb-830d-4b11e7e8a54d.png)
 
-- [Backend](https://github.com/kevinfaridap/zwallet-backend)
-- [Visit Project](https://zwallet-frontend.vercel.app/auth/signin)
+### `Success Page`
+![success](https://user-images.githubusercontent.com/74039235/117772405-560a0080-b261-11eb-8697-37b1a000c1b9.png)
+
+### `Profile Page`
+![profile v1](https://user-images.githubusercontent.com/74039235/117772448-63bf8600-b261-11eb-9602-14177d08c44e.png)
+
+### `Personal Information Page`
+![personal info](https://user-images.githubusercontent.com/74039235/117772485-6e7a1b00-b261-11eb-9db2-41a3ca0bf8d4.png)
+
+### `Change Pin Page`
+![change pin](https://user-images.githubusercontent.com/74039235/117772516-78038300-b261-11eb-8f8a-4f313e03ed98.png)
+
+## VISIT PROJECT !!!
+- :white_check_mark: [Backend](https://github.com/kevinfaridap/zwallet-backend)
+- :rocket: [Ticktiz Ticket](https://zwallet-frontend.vercel.app/auth/signin)
+
+
