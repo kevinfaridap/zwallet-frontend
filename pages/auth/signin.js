@@ -29,7 +29,11 @@ const handleLogin = (e) => {
     e.preventDefault();
     const urlLogin = axios.post(`${process.env.api}/users/login`, data)
     .then((res) => {
+      console.log(res);
       const dataLogin = res.data.data;
+      if(res.data.error){
+        swal(res.data.error.message)
+      }
       localStorage.setItem("token", dataLogin.token)
       if (dataLogin.token) {
       swal('Success Login')
@@ -38,12 +42,10 @@ const handleLogin = (e) => {
 
       // window.history.push('/')
       // Router.reload();
-      
-      }
+      } 
     })
     .catch((err) => {
       console.log(err);
-      swal('Email and Password are incorrect')
     })       
 };
   

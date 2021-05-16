@@ -33,7 +33,8 @@ function index() {
       const urlRegis = axios.post(`${process.env.api}/users/register`, formUser)
       .then((res) => {
           // console.log(res.data)
-          swal(`Registered \n Email : ${formUser.email} `)
+          // swal(`Registered \n Email : ${formUser.email}`)
+          swal(`Check your Email to verify`)
           Router.push('auth/signin')
       })
       .catch((err) => {

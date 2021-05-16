@@ -1,5 +1,5 @@
-import Router from 'next/dist/next-server/server/router';
 import swal from 'sweetalert'
+import Router from 'next/router'
 
 const axios = require('axios')
 const axiosApiInstance = axios.create();
@@ -25,7 +25,7 @@ axiosApiInstance.interceptors.response.use((response)=>{
 }, async function (error){
     if (error.response.status === 401) {
         if(error.response.data.error.message === 'Invalid Signature!'){
-            swal('Invalid Token !')
+            swal('Invalid Token. Login to continue !')
             // Router.push('/auth/signin')
             if (typeof window !== "undefined") {
                 localStorage.removeItem('token')

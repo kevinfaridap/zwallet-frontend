@@ -20,7 +20,7 @@ function MainLeft({amountincome, amountoutcome}) {
         <div className="row">
           <div className="col">
             <div className={style["graphic"]}></div>
-            <p className={style["justimg"]}>Image</p>
+            {/* <p className={style["justimg"]}>Image</p> */}
           </div>
         </div>
       </div>      
