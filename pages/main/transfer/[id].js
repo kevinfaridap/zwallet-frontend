@@ -68,7 +68,8 @@ const getUserId = ({user}) =>{
                 
                 <div className={[["row"], ["mt-5"], style["receiver-box"]].join(' ')}>
                   <div className="col-lg-2">
-                    <div className={style["img-target"]}></div>
+                    {/* <div className={style["img-target"]}></div> */}
+                    <img src={user.image} alt="" className={style["img-target"]}/>
                   </div>
                   <div className="col">
                     {/* <p>{JSON.stringify(user)}</p> */}
@@ -104,7 +105,7 @@ const getUserId = ({user}) =>{
                   <br/>
                   <input 
                     className={[["form-control"], style["form-notes"]].join(' ')} 
-                    type="number" 
+                    type="password" 
                     name="pin"
                     id="pin"
                     placeholder="Type your pin"

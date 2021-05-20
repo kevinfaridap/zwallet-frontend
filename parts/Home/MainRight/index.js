@@ -25,7 +25,7 @@ function MainRight() {
             <p className={style["type-transfer"]}>Subscription</p>
           </div>
           <div className="col">
-            <p className={style["transaction-amount"]}>Rp50.000</p>
+            <p className={style["transaction-amount"]}>Rp70.000</p>
           </div>
         </div>
       </div>    

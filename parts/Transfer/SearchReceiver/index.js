@@ -73,7 +73,8 @@ function SearchReceiver() {
               >
                 <div className="row">
                   <div className="col-lg-2">
-                    <div className={style["img-target"]}></div>
+                    {/* <div className={style["img-target"]}></div> */}
+                    <img src={item.image} alt="" className={style["img-target"]}/>
                   </div>
                   <div className="col">
                         <p className="target-name">{item.firstName}</p>
@@ -86,8 +87,12 @@ function SearchReceiver() {
             }) : console.log("try again")} 
 
           <br/>
-          <button className={style['btn-asc']} onClick={()=>setOrder("ASC")} >ASC</button>
-          <button className={style['btn-asc']} onClick={()=>setOrder("DESC")} >DESC</button>
+          <button className={style['btn-asc']} onClick={()=>setOrder("ASC")} >
+            <img className={style['up']} src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/sort-up-512.png" alt="" />
+          </button>
+          <button className={style['btn-asc']} onClick={()=>setOrder("DESC")} >
+            <img className={style['down']} src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/sort-up-512.png" alt="" />
+          </button>
 
            {/* AWAL BUTTON */}
           <div className="row display-flex justify-content-center mt-5">

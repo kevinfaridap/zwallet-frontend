@@ -19,7 +19,7 @@
   }
   
   .img-target{
-    background-image: url(../assets/images/target-profile.png);
+    /* background-image: url(../assets/images/target-profile.png); */
     width: 70px;
     height: 70px;
     border-radius: 10px;

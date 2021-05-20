@@ -25,7 +25,7 @@ axiosApiInstance.interceptors.response.use((response)=>{
 }, async function (error){
     if (error.response.status === 401) {
         if(error.response.data.error.message === 'Invalid Signature!'){
-            swal('Invalid Token. Login to continue !')
+            swal('You are not login. Login now to continue !')
             // Router.push('/auth/signin')
             if (typeof window !== "undefined") {
                 localStorage.removeItem('token')
@@ -33,6 +33,7 @@ axiosApiInstance.interceptors.response.use((response)=>{
         }
         if(error.response.data.error.message === 'Jwt expired'){
             swal('Token Expired !')
+            Router.push('/auth/signin')
             if (typeof window !== "undefined") {
                 localStorage.removeItem('token')
             }

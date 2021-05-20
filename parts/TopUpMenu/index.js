@@ -22,7 +22,6 @@ const TopUpMenu = ({user}) =>{
 
 
   console.log(context.id+ 'ini idnya');
-  // const forceMovie = Router.push('/');
 
   const [formTopUp, setFormTopUp] = useState({
     idUser: context.id !== undefined? context.id : '',
@@ -42,7 +41,7 @@ const TopUpMenu = ({user}) =>{
     axios.post(`${process.env.api}/transaction/topup`, formTopUp)
       .then((res) => {
         swal(`Success Top UP : Rp ${formTopUp.amount}`)
-        Router.push('/')
+        Router.push('/main/home')
         console.log(res.data)
       })
       .catch((err) => {

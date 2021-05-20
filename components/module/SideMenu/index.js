@@ -21,7 +21,7 @@ function SideMenu() {
         <div className="row mb-4">
           <div className="col">
             <div className={style["icon-dashboard"]}></div>
-            <Link href="/" >
+            <Link href="/main/home" >
               <a>Dashboard</a>
             </Link>
           </div>

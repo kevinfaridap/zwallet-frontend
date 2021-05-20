@@ -37,7 +37,7 @@ const handleLogin = (e) => {
       localStorage.setItem("token", dataLogin.token)
       if (dataLogin.token) {
       swal('Success Login')
-      Router.push('/')
+      Router.push('/main/home')
       // window.location.replace("/"); 
 
       // window.history.push('/')

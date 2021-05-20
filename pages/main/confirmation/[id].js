@@ -51,7 +51,8 @@ const ConfirmationId = ({dataTransaction}) =>{
                   
                   <div className={[["row"], ["mt-5"], style["receiver-box"]].join(' ')}>
                     <div className="col-lg-2">
-                      <div className={style["img-target"]}></div>
+                      {/* <div className={style["img-target"]}></div> */}
+                      <img src={getDataReceiver.image} alt="" className={style["img-target"]}/>
                     </div>
                     <div className="col">
                       <p className={style["target-name"]}>{getDataReceiver.firstName}</p>
@@ -81,7 +82,7 @@ const ConfirmationId = ({dataTransaction}) =>{
                   <button 
                     className={style["btn-continue"]}
                     type="button"
-                    onClick={() => Router.push('/')}
+                    onClick={() => Router.push('/main/home')}
                   > Back to Dashboard
                   </button>
 
