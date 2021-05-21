@@ -67,19 +67,19 @@ REACT_APP_SOCKET=[Backend API]
 
 <p align='center'>
   <span>
-      <image width="200" src='./screenshot/landingpage.png' />
-      <image width="200" src='./screenshot/signup.png' />
-      <image width="200" src='./screenshot/signin.png' />
-      <image width="200" src='./screenshot/main-home.png' />
-      <image width="200" src='./screenshot/top-up.png' />
-      <image width="200" src='./screenshot/search-receiver.png' />
-      <image width="200" src='./screenshot/transfer.png' />
-      <image width="200" src='./screenshot/top-up.png' />    
-      <image width="200" src='./screenshot/success-transfer.png' />
-      <image width="200" src='./screenshot/personal-info.png' />
-      <image width="200" src='./screenshot/update-personal-info.png' />
-      <image width="200" src='./screenshot/change-pin.png' />    
-      <image width="200" src='./screenshot/change-password.png' />
+      <image width="400" src='./screenshot/landingpage.png' />
+      <image width="400" src='./screenshot/signup.png' />
+      <image width="400" src='./screenshot/signin.png' />
+      <image width="400" src='./screenshot/main-home.png' />
+      <image width="400" src='./screenshot/top-up.png' />
+      <image width="400" src='./screenshot/search-receiver.png' />
+      <image width="400" src='./screenshot/transfer.png' />
+      <image width="400" src='./screenshot/top-up.png' />    
+      <image width="400" src='./screenshot/success-transfer.png' />
+      <image width="400" src='./screenshot/personal-info.png' />
+      <image width="400" src='./screenshot/update-personal-info.png' />
+      <image width="400" src='./screenshot/change-pin.png' />    
+      <image width="400" src='./screenshot/change-password.png' />
 
    
    
