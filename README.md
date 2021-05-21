@@ -67,19 +67,19 @@ REACT_APP_SOCKET=[Backend API]
 
 <p align='center'>
   <span>
-      <image width="400" src='./screenshot/landingpage.png' />
-      <image width="400" src='./screenshot/signup.png' />
-      <image width="400" src='./screenshot/signin.png' />
-      <image width="400" src='./screenshot/main-home.png' />
-      <image width="400" src='./screenshot/top-up.png' />
-      <image width="400" src='./screenshot/search-receiver.png' />
-      <image width="400" src='./screenshot/transfer.png' />
-      <image width="400" src='./screenshot/top-up.png' />    
-      <image width="400" src='./screenshot/success-transfer.png' />
-      <image width="400" src='./screenshot/personal-info.png' />
-      <image width="400" src='./screenshot/update-personal-info.png' />
-      <image width="400" src='./screenshot/change-pin.png' />    
-      <image width="400" src='./screenshot/change-password.png' />
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/landingpage.png' />
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/signup.png' />
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/signin.png' />
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/main-home.png' />
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/top-up.png' />
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/search-receiver.png' />
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/transfer.png' />
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/top-up.png' />    
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/success-transfer.png' />
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/personal-info.png' />
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/update-personal-info.png' />
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/change-pin.png' />    
+      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/change-password.png' />
 
    
    
