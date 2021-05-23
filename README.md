@@ -2,7 +2,7 @@
 
   <h3 align="center">Zwallet</h3>
   <p align="center">
-    <image src='https://user-images.githubusercontent.com/74039235/119269743-72277d80-bc23-11eb-8f9f-7662c19782f1.png' />
+    <image src='https://user-images.githubusercontent.com/74039235/119271100-4065e500-bc2a-11eb-8635-b8ecd44f58be.png' />
      <br />
      by Kevin Farid Alpharisy
   </p>
