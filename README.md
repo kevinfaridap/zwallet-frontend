@@ -2,7 +2,9 @@
 
   <h3 align="center">Zwallet</h3>
   <p align="center">
-   by Kevin Farid Alpharisy
+    <image src='https://user-images.githubusercontent.com/74039235/119269743-72277d80-bc23-11eb-8f9f-7662c19782f1.png' />
+     <br />
+     by Kevin Farid Alpharisy
   </p>
  
   <p align="center">
@@ -23,7 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Tentang Project
 
-Zwallet adalah aplikasi layanan dompet digital yang memberi kemudahan kepada pengguna untuk melakukan transaksi apapun, kapanpun dan dimana pun. Aplikasi ini dibangun dengan menggunakan Next JS pada sisi Frontend dan Express JS pada sisi Backend
+Zwallet adalah aplikasi layanan dompet digital yang memberi kemudahan kepada pengguna untuk melakukan transaksi apapun, kapanpun dan dimana pun. Aplikasi ini dibangun dengan menggunakan NextJs pada sisi Frontend dan ExpressJs pada sisi Backend.
 
 
 
@@ -67,19 +69,19 @@ REACT_APP_SOCKET=[Backend API]
 
 <p align='center'>
   <span>
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/landingpage.png' />
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/signup.png' />
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/signin.png' />
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/main-home.png' />
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/top-up.png' />
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/search-receiver.png' />
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/transfer.png' />
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/top-up.png' />    
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/success-transfer.png' />
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/personal-info.png' />
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/update-personal-info.png' />
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/change-pin.png' />    
-      <image width="400" src='https://raw.githubusercontent.com/kevinfaridap/zwallet-frontend/master/screenshot/change-password.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270455-f2031700-bc26-11eb-9aa6-dfe82c5846c4.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270480-0c3cf500-bc27-11eb-9ecd-876b683e7409.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270476-06471400-bc27-11eb-9add-c25008c4cf94.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270480-0c3cf500-bc27-11eb-9ecd-876b683e7409.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270493-165ef380-bc27-11eb-9e2c-d11143d95006.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270470-00e9c980-bc27-11eb-9dd9-9655170e641d.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270495-1bbc3e00-bc27-11eb-8b63-db3c3b2d112e.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270493-165ef380-bc27-11eb-9e2c-d11143d95006.png' />    
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270486-119a3f80-bc27-11eb-8183-ea67c2b3eea0.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270465-fc251580-bc26-11eb-8c9b-3711e5b69472.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270500-21198880-bc27-11eb-89be-6f83754baaf2.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270449-eca5cc80-bc26-11eb-8fa4-247543a21770.png' />    
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270442-e6afeb80-bc26-11eb-81e2-5d21f50dfadb.png' />
 
    
    
