@@ -48,7 +48,7 @@ export default function Home({user}) {
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-3 ">
               <SideMenu />
             </div>
             <div className="col">

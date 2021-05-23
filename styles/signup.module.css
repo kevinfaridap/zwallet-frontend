@@ -167,12 +167,32 @@ main aside.auth-login form button.btn-auth-here {
   color: #ffffff;
 }
 
+h5.title-mobile{
+  display: none;
+}
 
+.lets-signup-mobile{
+  display: none;
+}
 
+.singin-link{
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   main.main {
-    height: 1000px !important;
+    height: fit-content;
+  }
+  section.auth-logins{
+    display: none;
+  }
+  h5.title-mobile{
+    display: block;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-top: 0px;
   }
   
 
@@ -183,6 +203,7 @@ main aside.auth-login form button.btn-auth-here {
     top: -50px;
     bottom: -450px;
     padding-top: 100px;
+    height: fit-content;
     /* background-image: url(../../assets/images/hero-auth.png); */
     background-color: rgba(99, 121, 244, 1);
     background-repeat: no-repeat;
@@ -202,9 +223,42 @@ main aside.auth-login form button.btn-auth-here {
   }
 
   main aside.auth-login form {
+    margin-top: -70px;
     padding-top: 50px;
+
   }
 
+  .singin-link{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+  }
+
+  .lets-signup-mobile{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+  }
+
+  a.forgot{
+    display: none;
+  }
+
+  p.desc{
+    display: none;
+  }
   
 
   main aside.auth-login form input.form-control {

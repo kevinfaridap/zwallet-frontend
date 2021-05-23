@@ -3,8 +3,10 @@ import style from '../../styles/profile.module.css'
 import Router from 'next/router'
 import UserContext from '../../components/base/UserContext'
 import axiosApiInstance from '../../helper/axios'
+import axios from 'axios'
 
 function Profile({userFullName, phoneNumber}) {
+  const imageRef = useRef(null)
   const handleLogOut = () =>{
     const doLogout = localStorage.removeItem("token");
      if(doLogout){
@@ -25,60 +27,51 @@ function Profile({userFullName, phoneNumber}) {
     })
   }, [])
 
-  // Update Image Profile
-//   const iduser = (context.id !== undefined) ? context.id : '';
-//   const imageRef = useRef(null)
-//   const [formUpdateImage, setFormUpdateImage] = useState({
-//    idUser: iduser,
-//    image: ''
-//  })  
 
-//  const handleChangeImage =(e) => {
-//       setFormUpdateImage({
-//       ...formUpdateImage,
-//       image: e.target.files[0]
-//     })
-//   }
+const [formUpdateImage, setFormUpdateImage] = useState({
+  idUser: context!==null?context.id: null,
+  image: context!==null?context.image: null
+})
 
-//   const handleUpdateImg = (e) =>{
-//     e.preventDefault()
-//     const formData = new FormData()
+const handleChangeImage =(e) => {
+  setFormUpdateImage({
+    ...formUpdateImage,
+    image: e.target.files[0]
+  })
+}
 
-//     formData.append('image', formUpdateImage.image)
-//     imageRef.current.value = ""
+const handleUpdateImage = (e) =>{
+  e.preventDefault();
+  const formData = new FormData()
 
-//     useEffect(()=>{
-//       axios.put(`${process.env.api}/users/updateimage`, formUpdateImage)
-//       .then((res) => {
-        
-//         console.log(res.data)
-//         if(res.data){
-//           swal(`Success Update Profile`)
-//           Router.push(`/main/profile`)
-//         } 
-//         if(res.error === null){
-//           swal('Success Update Photo')
-//           history.push('/main/profile')
-//         }
-//         else if(res.message==='File too large'){
-//           swal('File size too large, max size = 2 mb')
-//         } else{
-//           swal(res.message)
-//         }
-//       })
-//       .catch((err) => {
-//           console.log(err);
-//       }) 
-      
-//     })
-    
-//   }
+  formData.append('idUser', formUpdateImage.idUser)
+  formData.append('image', formUpdateImage.image)
+  imageRef.current.value = ""
+
+  axios.put(`http://localhost:8080/v1/users/updateimage`, formData)
+ .then((res) => {
+   console.log(res.data, 'updataea image');
+    if(res.data.message === "Succes update Image"){
+      setFormUpdateImage(res.data.data.image)
+      swal(`Success Update Image`)
+      Router.push(`/main/home`)
+    } else if(res.data.message=== 'File too large'){
+      swal('File too large. FIle Max 2 mb!')
+    } else{
+      swal(res.data.message)
+    }
+  })
+  .catch((err) => {
+      console.log(err);
+  }) 
+}
 
   return (
     <div>
       <div className={style["profile-card"]}>
         <img className={style["user-img"]} src={context?.image} alt=""/>
-        {/* <input 
+
+        <input 
           type="file" 
           className={style['form-img']} 
           name="image"
@@ -88,11 +81,12 @@ function Profile({userFullName, phoneNumber}) {
           onChange={e => handleChangeImage(e)}
         />
         <button 
-          className={style["btn-update"]}
+          className={style["btn-change-imgprofile"]}
           type="button"
-          onClick={handleUpdateImg}
-        > Change Image
-        </button> */}
+          onClick={handleUpdateImage}
+        > Update Image
+        </button>
+      
         <br/>
         <p className={style["user-name"]}>{context?.firstName} {context.lastName}</p>
         <p className={style["phone-num"]}>{phoneNumber}</p>

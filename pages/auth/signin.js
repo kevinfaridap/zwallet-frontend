@@ -63,6 +63,7 @@ const handleLogin = (e) => {
             
           </section>
           <aside className={[["m-5"], style["auth-login"]].join(" ")}>
+            <h5 className={style["title-mobile"]}>Zwallet</h5>
             <p className={style["desc"]}>Start Accessing Banking Needs With All Devices and All Platforms With 30.000+ Users</p>
             <p className={style["transfer-desc"]}>Transfering money is eassier than ever, you can access Zwallet wherever you are. Desktop, laptop, mobile phone? we cover all of that for you!</p>  
             <div className={[["d-flex justify-content-center"], style["form-container"],].join(" ")}>
@@ -102,6 +103,9 @@ const handleLogin = (e) => {
                   buttnname=" Sign In"
                   onClick={handleLogin}
                 />
+                <Link href="/auth">
+                  <a className={style["lets-signup-mobile"]}>Dont have account ? Register here</a>
+                </Link>
                 {/* <button
                   type={"submit"}
                   className={[["mt-5 btn"], style["btn-auth"]].join(" ")}
@@ -109,7 +113,6 @@ const handleLogin = (e) => {
                 >
                   Sign In
                 </button> */}
-               
                 <div className="d-flex mt-5 mb-4">
                   <hr />
                   <p className={[style["already"]]}>

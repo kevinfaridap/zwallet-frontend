@@ -39,3 +39,45 @@
   margin-top: 250px;
   margin-bottom: 30px;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .side-menu{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    width: 100%; 
+    margin-top: 10px;
+    margin-bottom: -20px;
+    height: 35vw;
+  }
+  
+  .side-menu a{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: rgba(58, 61, 66, 0.8);
+    text-decoration: none;
+    margin-left: 60px;
+  }
+  .side-menu a.transfer{
+    display: none;
+  }
+  .side-menu a.topup{
+    display: none;
+  }
+
+  .profle{
+    position: relative;
+    top: -14vw;
+  }
+
+
+  
+  .btn-logout{
+    display: none;
+  }
+}

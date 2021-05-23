@@ -53,7 +53,7 @@ function SearchReceiver() {
             <input 
               className={[["form-control"], ["mr-sm-2"], style["form-search"]].join(' ')} 
               type="search" 
-              placeholder="Search receiver here" 
+              placeholder="Search Receiver Name" 
               name="name"
               id="name"
               value={title.name}
@@ -77,8 +77,8 @@ function SearchReceiver() {
                     <img src={item.image} alt="" className={style["img-target"]}/>
                   </div>
                   <div className="col">
-                        <p className="target-name">{item.firstName}</p>
-                        <p className="target-number">{item.phoneNumber}</p>
+                        <p className={style["target-name"]}>{item.firstName}</p>
+                        <p className={style["target-number"]}>{item.phoneNumber}</p>
                 </div>
                 </div>
               </button>

@@ -56,6 +56,7 @@ function index() {
             
           </section>
           <aside className={[["m-5"], style["auth-login"]].join(" ")}>
+            <h5 className={style["title-mobile"]}>Zwallet</h5>
             <p className={style["desc"]}>Start Accessing Banking Needs With All Devices and All Platforms With 30.000+ Users</p>
             <p className={style["transfer-desc"]}>Transfering money is eassier than ever, you can access Zwallet wherever you are. Desktop, laptop, mobile phone? we cover all of that for you!</p>  
             <div className={[["d-flex justify-content-center"], style["form-container"],].join(" ")}>
@@ -111,7 +112,10 @@ function index() {
                 >
                   Sign Up
                 </button>
-               
+              
+                <Link href="auth/signin">
+                  <a className={style["singin-link"]}>Already have account? Sign In here!</a>
+                </Link>
                 <div className="d-flex mt-5 mb-4">
                   <hr />
                   <p className={[style["already"]]}>

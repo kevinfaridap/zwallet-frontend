@@ -66,3 +66,54 @@ button.btn-etc:hover{
   background-color: rgba(99, 121, 244, 1);
   color: white;
 }
+
+input.form-img{
+  border: none;
+  font-family: Nunito Sans;
+  background-color: transparent;
+  color: #4D4B57;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input.form-img::-webkit-file-upload-button{
+  content: '';
+  font-family: Nunito Sans;
+  background-color: #4E4B66;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  
+  
+}
+
+
+button.btn-change-imgprofile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color:#F5F6F8;
+  font-family: Nunito Sans;
+  background-color: rgba(99, 121, 244, 1);
+  border: none;
+  border-radius: 10px;
+  height: 36px;
+}
+
+button.btn-change-imgprofile:hover{
+  background-color: #7A7886;
+  color:white;
+}
+
+@media only screen and (max-width: 600px) {
+  button.btn-etc{
+    background: #E5E8ED;
+    border-radius: 20px;
+    width: 70vw;
+    height: 64px;
+    border: none;
+  }
+}

@@ -57,3 +57,10 @@ p.transaction-amount{
   color: #1EC15F;
   margin-right: 20px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .history-box{
+    display: none;
+  }
+}

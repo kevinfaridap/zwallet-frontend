@@ -22,28 +22,28 @@ function SideMenu() {
           <div className="col">
             <div className={style["icon-dashboard"]}></div>
             <Link href="/main/home" >
-              <a>Dashboard</a>
+              <a className={style["dashbord"]}>Dashboard</a>
             </Link>
           </div>
         </div>
         <div className="row mb-4">
           <div className="col">
             <Link href="/main/transfer">
-              <a>Transfer</a>
+              <a className={style["transfer"]}>Transfer</a>
             </Link>
           </div>
         </div>
         <div className="row mb-4">
           <div className="col">
             <Link href="/main/topup">
-              <a>Top Up</a>
+              <a className={style["topup"]}>Top Up</a>
             </Link>
           </div>
         </div>
         <div className="row mb-4">
           <div className="col">
             <Link href="/main/profile">
-              <a>Profile</a>
+              <a className={style["profle"]}>Profile</a>
             </Link>
           </div>
         </div>

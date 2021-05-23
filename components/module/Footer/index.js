@@ -7,7 +7,7 @@ function Footer() {
       <div className={[style['footer-style']]}>
         <div className="container">
           <div className="row">
-            <div className="col">
+            <div className="col-lg ">
               <p className={style["copy-right"]}>2020 Zwallet. All right reserved.</p>
             </div>
             <div className="col-lg-3">

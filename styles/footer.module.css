@@ -36,3 +36,45 @@ p.servie-email{
   color: #EFEFEF;
   
 }
+
+@media only screen and (max-width: 600px) {
+  .footer-style{
+    background-color: rgba(99, 121, 244, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  
+  p.copy-right{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(239, 239, 239, 0.9);
+    
+  }
+  
+  p.service-numb{
+    display: inline;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #EFEFEF;
+  }
+  
+  p.servie-email{
+    display: inline;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #EFEFEF;
+    
+  }
+}
