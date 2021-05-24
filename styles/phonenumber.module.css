@@ -1,0 +1,116 @@
+.personalinfo-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    height: fit-content;
+    padding-bottom: 30px;
+  }
+  
+  p.title{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+  }
+  
+  p.desc{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7A7886;
+    /* width: 700px; */
+  }
+  
+  div.row-info{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+  
+  p.title-info{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7A7886;
+  }
+  
+  p.value{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #514F5B;
+    margin-top: -10px;
+  }
+  
+  
+  button.btn-manage-phonenumber{
+    background-color:transparent;
+    border: none;
+    width: 50px;
+    float: right;
+    margin-right: 40px;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    margin-top: -10px;
+  }
+    
+  
+  input.form-firstname{
+    border: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #514F5B;
+    margin-bottom: 5px;
+    outline: none;
+  }
+  
+  
+  button.btn-update{
+    background-color: #6379F4;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 12vw;
+    height: 48px;
+  }
+  
+  button.btn-update:hover{
+    background-color: #fff;
+    color: #6379F4;
+    border: 1px solid #6379F4;
+  }
+
+  img.remove-phone-icon{
+    width: 20px;
+    position: relative;
+    left: 42vw;
+    top: -6vw;
+  }
+
+  button.btn-remove-phone{
+    background-color:transparent;
+    border: none;
+  }
+  

@@ -73,8 +73,8 @@ const getUserId = ({user}) =>{
                   </div>
                   <div className="col">
                     {/* <p>{JSON.stringify(user)}</p> */}
-                    <p className="target-name">{user.firstName}</p>
-                    <p className="target-number">{user.phoneNumber}</p>
+                    <p className={style["target-name"]}>{user.firstName}</p>
+                    <p className={style["target-number"]}>{user.phoneNumber}</p>
                   </div>
                 </div>
 
@@ -82,7 +82,7 @@ const getUserId = ({user}) =>{
                 <br/>
                 <form>
                   <input 
-                    className={[["form-control"], style["form-amount"]].join(' ')} 
+                    className={[ style["form-amount"]].join(' ')} 
                     type="text" 
                     name="amount"
                     id="amount"
@@ -94,7 +94,7 @@ const getUserId = ({user}) =>{
                   <p className={style["amount-available"]}>Rp {context.saldo} Available</p>
                   <br/>
                   <input 
-                    className={[["form-control"], style["form-notes"]].join(' ')} 
+                    className={[ style["form-notes"]].join(' ')} 
                     type="text" 
                     name="info"
                     id="info"
@@ -104,7 +104,7 @@ const getUserId = ({user}) =>{
                   />
                   <br/>
                   <input 
-                    className={[["form-control"], style["form-notes"]].join(' ')} 
+                    className={[style["form-notes"]].join(' ')} 
                     type="password" 
                     name="pin"
                     id="pin"

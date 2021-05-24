@@ -98,7 +98,7 @@ function SearchReceiver() {
           <div className="row display-flex justify-content-center mt-5">
             {Array.from(Array(totalPage).keys()).map(item=>
               <>
-                <div className="col-1 display-flex justify-content-center">
+                <div className="col-lg-1 col-2 display-flex justify-content-center ">
                   <button className={style['btn-pagination']} onClick={()=>setPage(item+1)} >{item+1}</button>  
                 </div>
               </>

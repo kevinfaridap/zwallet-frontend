@@ -24,6 +24,8 @@
     width: 70px;
     height: 70px;
     border-radius: 10px;
+    position: relative;
+    top: 5px;
   }
   
   p.target-name{
@@ -33,6 +35,8 @@
     font-size: 18px;
     line-height: 25px;
     color: #4D4B57;
+    position: relative;
+    top: 10px;
   }
   
   p.target-number{
@@ -72,6 +76,13 @@
     border: none;
     margin: 5px auto;
     font-family: Nunito Sans;
+    outline: none;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   p.amount-available{
@@ -98,7 +109,15 @@
     border-top: none;
     border-left: none;
     border-right: none;
+    padding-left: 10px;
     border-bottom: 1.5px solid rgba(169, 169, 169, 0.6);;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
   }
   
   button.btn-continue{

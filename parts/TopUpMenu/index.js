@@ -61,7 +61,7 @@ const TopUpMenu = ({user}) =>{
           <div className="form-group mt-4">
             <input
               type="text"
-              className={[["form-control mt-1"], style["form-control-amount"]].join(" ")}
+              className={[["mt-1"], style["form-control-amount"]].join(" ")}
               name="amount"
               id="amount"
               placeholder="Enter Amount"
@@ -74,7 +74,7 @@ const TopUpMenu = ({user}) =>{
           <div className="form-group mt-4">
           
           <textarea 
-            type="text" className={[["form-control mt-1"], style["form-control-notes"]].join(" ")}
+            type="text" className={[["mt-1"], style["form-control-notes"]].join(" ")}
             name="info"
             id="info"
             placeholder="Enter your notes here"

@@ -40,6 +40,10 @@ input.form-control-amount{
   border-bottom:steelblue 1px solid ;
 }
 
+input.form-control-amount:focus{
+  outline: none;
+}
+
 p.notes{
   font-family: Nunito Sans;
   font-style: normal;
@@ -52,7 +56,7 @@ p.notes{
 }
 
 textarea.form-control-notes{
-  width: 70%;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +64,9 @@ textarea.form-control-notes{
   margin-right: auto;
   border: none;
   border-bottom:#6379F4 1px solid ;
+  outline: none;
 }
+
 
 button.btn-topup{
   background-color: #6379F4;

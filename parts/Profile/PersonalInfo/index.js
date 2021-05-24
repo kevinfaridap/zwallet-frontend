@@ -56,7 +56,7 @@ function PersonalInfo() {
   }
   
   const managePhone = (e)=>{
-    // Router.push('main/profile/personalinfo/managephone')
+    Router.push('./phonenumber')
   }
   return (
     <div>
@@ -117,7 +117,7 @@ function PersonalInfo() {
             className={style["btn-update"]}
             type="submit"
             onClick={handleUpdateProfile}
-          > Save
+          > Update Profile
           </button>
         
 

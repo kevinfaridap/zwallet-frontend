@@ -39,7 +39,7 @@ export default function Home({user}) {
     })
   }, [])
 
- 
+  // console.log(context);
 
   return (
     <>  
@@ -69,7 +69,9 @@ export default function Home({user}) {
                   />
                 </div>
                 <div className="col">
-                  <MainRight />
+                  <MainRight 
+                    iduser={context?.id}
+                  />
                 </div>
               </div>
             </div>

@@ -54,6 +54,17 @@ p.transaction-amount{
   font-size: 16px;
   line-height: 22px;
   text-align: right;
+  color: red;
+  margin-right: 20px;
+}
+
+p.transaction-amount-topup{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
   color: #1EC15F;
   margin-right: 20px;
 }

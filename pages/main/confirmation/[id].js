@@ -71,10 +71,10 @@ const ConfirmationId = ({dataTransaction}) =>{
                   </div>
                   <div className={[["row"], ["mt-1"], style["detail-box"]].join(' ')}>
                     <p className={style["title-detail"]}>Date & Time</p>
-                    <p className={style["value-detail"]}>{dataTransaction.createdAt}</p>
+                    <p className={style["value-detail"]}>{dataTransaction.dateFormated}</p>
                   </div>
                   <div className={[["row"], ["mt-1"], style["detail-box"]].join(' ')}>
-                    <p className={style["title-detail"]}>Notes</p>
+                    <p className={style["title-detail"]}>Notes</p> 
                     <p className={style["value-detail"]}>{dataTransaction.info}</p>
                   </div>
 
