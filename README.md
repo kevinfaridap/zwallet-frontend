@@ -70,7 +70,6 @@ REACT_APP_SOCKET=[Backend API]
 <p align='center'>
   <span>
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270455-f2031700-bc26-11eb-9aa6-dfe82c5846c4.png' />
-      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270480-0c3cf500-bc27-11eb-9ecd-876b683e7409.png' />
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270476-06471400-bc27-11eb-9add-c25008c4cf94.png' />
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270480-0c3cf500-bc27-11eb-9ecd-876b683e7409.png' />
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270493-165ef380-bc27-11eb-9e2c-d11143d95006.png' />
@@ -100,7 +99,7 @@ Berkontibusi membuat komunitas open source menjadi tempat yang luar biasa untuk 
 
 ## Related Project
 - :white_check_mark: [Backend](https://github.com/kevinfaridap/zwallet-backend)
-- :rocket: [Zwallet Apps](https://zwallet-frontend.vercel.app/auth/signin)
+- :rocket: [Zwallet [Demo Aplikasi]](https://zwallet-frontend.vercel.app/auth/signin)
  
 
 
