@@ -74,11 +74,11 @@ REACT_APP_SOCKET=[Backend API]
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270480-0c3cf500-bc27-11eb-9ecd-876b683e7409.png' />
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270493-165ef380-bc27-11eb-9e2c-d11143d95006.png' />
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270470-00e9c980-bc27-11eb-9dd9-9655170e641d.png' />
-      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270495-1bbc3e00-bc27-11eb-8b63-db3c3b2d112e.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119455744-187a9c80-bd64-11eb-8fff-8ed5f3bc6fec.png' />
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270493-165ef380-bc27-11eb-9e2c-d11143d95006.png' />    
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270486-119a3f80-bc27-11eb-8183-ea67c2b3eea0.png' />
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270465-fc251580-bc26-11eb-8c9b-3711e5b69472.png' />
-      <image width="400" src='https://user-images.githubusercontent.com/74039235/119270500-21198880-bc27-11eb-89be-6f83754baaf2.png' />
+      <image width="400" src='https://user-images.githubusercontent.com/74039235/119455286-a43ff900-bd63-11eb-9c2a-4f1ddcfcdbbe.png' />
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270449-eca5cc80-bc26-11eb-8fa4-247543a21770.png' />    
       <image width="400" src='https://user-images.githubusercontent.com/74039235/119270442-e6afeb80-bc26-11eb-81e2-5d21f50dfadb.png' />
 
