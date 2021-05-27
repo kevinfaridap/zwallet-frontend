@@ -99,7 +99,7 @@ function index() {
                 </div>
                 <br/>
                 <div>
-                  <Link href="/forgot-password">
+                  <Link href="/auth">
                     <a className={style["forgot"]}>Forgot Password?</a>
                   </Link>
                 </div>

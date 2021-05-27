@@ -48,7 +48,7 @@ const handleUpdateImage = (e) =>{
   formData.append('image', formUpdateImage.image)
   imageRef.current.value = ""
 
-  axios.put(`http://localhost:8080/v1/users/updateimage`, formData)
+  axios.put(`${process.env.api}/users/updateimage`, formData)
  .then((res) => {
    console.log(res.data, 'updataea image');
     if(res.data.message === "Succes update Image"){
