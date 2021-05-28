@@ -23,10 +23,9 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Tentang Project
+## About This Project
 
-Zwallet adalah aplikasi layanan dompet digital yang memberi kemudahan kepada pengguna untuk melakukan transaksi apapun, kapanpun dan dimana pun. Aplikasi ini dibangun dengan menggunakan NextJs pada sisi Frontend dan ExpressJs pada sisi Backend.
-
+Zwallet is a digital wallet service application that help users to make any transactions, anytime and anywhere. This application was built by NextJs, Bootstrap, and ExpressJs. There are many features such as register, login, email verification, update photo, top up, history transaction, and update profiles.
 
 
 ### Built With
@@ -39,11 +38,11 @@ Zwallet adalah aplikasi layanan dompet digital yang memberi kemudahan kepada pen
 
 
 <!-- GETTING STARTED -->
-## Mulai Project
+## Getting Started
 
-### Pra Syarat
+### Prerequisites
 
-Ini merupakan hal- hal yang diperlukan untuk memulai dan menginstall aplikasi ini.
+This is an example of how to list things you need to use the software and how to install them.
 
 * [nodejs](https://nodejs.org/en/download/)
 
@@ -86,9 +85,9 @@ REACT_APP_SOCKET=[Backend API]
    
    
 <!-- CONTRIBUTING -->
-## Berkontribusi
+## Contributing
 
-Berkontibusi membuat komunitas open source menjadi tempat yang luar biasa untuk belajar, menginspirasi, dan berkreasi. Setiap kontribusi yang Anda berikan ** sangat dihargai **.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -100,7 +99,7 @@ Berkontibusi membuat komunitas open source menjadi tempat yang luar biasa untuk 
 
 ## Related Project
 - :white_check_mark: [Backend](https://github.com/kevinfaridap/zwallet-backend)
-- :rocket: [Zwallet [Demo Aplikasi]](https://zwallet-frontend.vercel.app/auth/signin)
+- :rocket: [Zwallet [Demo Application]](https://zwallet-frontend.vercel.app/auth/signin)
  
 
 
